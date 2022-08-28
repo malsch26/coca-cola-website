@@ -1,0 +1,198 @@
+    body, button {
+        font-family: 'Prompt', sans-serif;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .product-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    button {
+        color: #ffffff;
+        background-color: red;
+        border-radius: 40px;
+        border: none;
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: rgba(198, 5, 5, 0.817);
+    }
+
+    h1 {
+        font-size: 70px;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+        /* Navbar Section */
+
+    .container-1 {
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    #logo {
+        float: left;
+    }
+        
+    .logo {
+        width: 50px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        color: red;
+    }
+
+    .icon {
+        width: 20px;
+        padding: 15px;
+    }
+
+        /* Header Section */
+
+    .header {
+        color: white;
+        padding: 30px 30px 100px;
+        border-radius: 30px;
+        margin: 50px 70px;
+        text-align: center;
+        background: linear-gradient(135deg, #c1125f 23%,#582051 100%);
+    }
+
+        /* Shop Section */
+
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .container-shop {
+        flex-basis: 100%;
+    }
+
+    .can-info {
+        margin-left: 20px;
+    }
+
+        /* Coca-Cola Store Section */
+
+    .container-2 {
+        overflow: hidden;
+        padding: 20px 70px 20px 150px;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    #big-cocacola {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left {
+        margin: 100px 0;
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .container-2  h2 {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .container-2  h3 {
+        color: red;
+        margin-bottom: 0;
+    } 
+
+        /* Footer Section */
+
+    .footer {
+        color: white;
+        background-color: #333;
+        text-align: center;
+        padding: 50px;
+        margin-top: 30px;
+    }
+
+    @media (min-width: 600px) {
+        .grid-container {
+            flex-wrap: nowrap;
+            align-items: baseline;
+        }
+    
+        .container-shop {
+            flex-basis: 33%;
+            padding: 50px;
+        }
+
+        .can-info {
+            margin-left: 45px;
+        }
+
+        .sign-up {
+            background-color: red;
+            border-radius: 20px;
+            color: white;
+            padding: 20px;
+            overflow: hidden;
+            margin: 0 30px;
+        }
+        
+        .sign-up h2 {
+            float: left;
+            margin-left: 15px;
+        }
+    
+        .sign-up button {
+            float: right;
+            background-color: white;
+            color: red;
+            margin: 35px 50px 0 0;
+        }
+         
+    }
